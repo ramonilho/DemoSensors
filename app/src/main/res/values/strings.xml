@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DemoSensors</string>
+    <string name="hello_world">Hello world</string>
+    <string name="talk">Talk</string>
+    <string name="input_text">Insert text</string>
+    <string name="textHint">Your text will be here</string>
+</resources>

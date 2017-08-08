@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.ramonilho.demosensors.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btAcelerometer"
+            style="@style/DefaultButton"
+            android:layout_marginTop="0dp"
+            android:text="ACELERÔMETRO"
+            android:onClick="openAcelerometer"/>
+        <Button
+            android:id="@+id/btTTS"
+            style="@style/DefaultButton"
+            android:text="TTS"
+            android:onClick="openTTS"/>
+        <Button
+            android:id="@+id/btSTT"
+            style="@style/DefaultButton"
+            android:text="STT"
+            android:onClick="openSTT"/>
+        <Button
+            android:id="@+id/btAllSensors"
+            style="@style/DefaultButton"
+            android:text="TODOS OS SENSORES"
+            android:onClick="openAll"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
